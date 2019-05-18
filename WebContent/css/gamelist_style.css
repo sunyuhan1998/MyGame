@@ -1,0 +1,72 @@
+.gamelistBg{
+	float: left;
+	width: 100%;
+	padding-top: 50px;
+	padding-left: 200px;
+	padding-bottom: 100px;
+	background-image: url(../img/background.jpg);
+}
+.gamelist{
+	float: left;
+	width: 700px;
+	margin-left: 100px;
+}
+#listtitle{
+	float: left;
+	font-size: 30px;
+}
+.listgame{
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	list-style: none;
+}
+.listcontext{
+	width: 100%;
+	height: 130px;
+	border-radius: 10px ;
+	background-color: white;
+	cursor: pointer;
+}
+.listcontext:hover{
+	background-color: #f7f7f7;
+}
+.listcontextimg{
+	float: left;
+	height: 100%;
+	width: 233px;
+	border-radius: 10px 0px 0px 10px ;
+	
+}
+.listcontextimg img{
+	float: left;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px 0px 0px 10px ;
+}
+.listcontextinfo{
+	float: left;
+	height: 100%;
+	width: 260px;
+}
+.listcontextprice{
+	float: right;
+	height: 100%;
+	width: 200px;
+}
+.contextname{
+	padding-top: 20px;
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.contexttype{
+	font-size: 20px;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+.contextprice{
+	font-size: 18px;
+	padding-top: 50px;
+	padding-left: 120px;
+}
